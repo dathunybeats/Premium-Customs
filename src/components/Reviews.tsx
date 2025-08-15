@@ -22,7 +22,7 @@ const reviews = [
     avatar: "JS"
   },
   {
-    text: "Best mobile detailing service in Tuscaloosa. Worth every penny!",
+    text: "Best automotive customization shop. Worth every penny!",
     author: "Michael B.",
     rating: 5,
     avatar: "MB"
@@ -73,7 +73,7 @@ const Reviews = () => {
             100% Recommend Rate
           </h2>
           <p className="text-muted-foreground text-base leading-relaxed">
-            16 reviews from satisfied customers in Tuscaloosa, AL.
+            Reviews from satisfied customers who chose Premium Customs.
           </p>
         </div>
         

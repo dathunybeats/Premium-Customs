@@ -14,36 +14,36 @@ const Hero = () => {
     {
       id: 1,
       backgroundImage: heroImage,
-      subtitle: "AUTOMOTIVE CUSTOMIZATION",
+      subtitle: "PREMIUM AUTOMOTIVE SERVICES",
       title: "TRANSFORM YOUR RIDE",
-      titleHighlight: "WITH UNIQUE CUSTOMZ HTX",
+      titleHighlight: "WITH PREMIUM CUSTOMS",
       buttonText: "GET QUOTE",
       headingClass: "text-2xl sm:text-5xl md:text-6xl lg:text-6xl"
     },
     {
       id: 2,
       backgroundImage: heroImage2,
-      subtitle: "VINYL WRAP SPECIALISTS",
-      title: "PREMIUM VINYL",
-      titleHighlight: "WRAPPING SERVICES",
+      subtitle: "DETAILING & PPF SPECIALISTS",
+      title: "PREMIUM DETAILING",
+      titleHighlight: "& PPF SERVICES",
       buttonText: "GET QUOTE",
       headingClass: "text-3xl sm:text-5xl md:text-6xl lg:text-7xl"
     },
     {
       id: 3,
       backgroundImage: heroImage3,
-      subtitle: "WINDOW TINTING",
+      subtitle: "CERAMIC COATING",
       title: "PROFESSIONAL GRADE",
-      titleHighlight: "TINT INSTALLATION",
+      titleHighlight: "CERAMIC PROTECTION",
       buttonText: "GET QUOTE",
       headingClass: "text-3xl sm:text-5xl md:text-6xl lg:text-7xl"
     },
     {
       id: 4,
       backgroundImage: heroSlide4,
-      subtitle: "FINANCING AVAILABLE",
-      title: "FINANCE WITH",
-      titleHighlight: "SYNCHRONY 💸",
+      subtitle: "POWDER COATING",
+      title: "PROFESSIONAL",
+      titleHighlight: "POWDER COATING",
       buttonText: "LEARN MORE",
       headingClass: "text-3xl sm:text-5xl md:text-6xl lg:text-7xl"
     }

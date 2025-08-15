@@ -16,46 +16,46 @@ import serviceMercedesGt from "@/assets/service-mercedes-gt.jpg";
 
 const services = [
   {
-    title: "VINYL WRAP",
-    description: "Premium vinyl wrapping for complete vehicle transformation",
+    title: "DETAILING",
+    description: "Professional automotive detailing for interior and exterior perfection",
     image: rootImg1,
     badge: "POPULAR",
     badgeColor: "bg-blue-500"
   },
   {
-    title: "WINDOW TINT",
-    description: "Professional window tinting for privacy and UV protection",
+    title: "VINYL WRAP",
+    description: "Premium vinyl wrapping for complete vehicle transformation",
     image: rootImg2,
     objectPosition: '50% 80%',
     badge: "PREMIUM",
     badgeColor: "bg-blue-500"
   },
   {
-    title: "HEADLIGHT TINT",
-    description: "Custom headlight and taillight tinting services",
+    title: "PPF (PAINT PROTECTION FILM)",
+    description: "Clear protective films for superior paint preservation",
     image: rootImg3,
     objectPosition: '50% 80%',
     badge: "SPECIALIST",
     badgeColor: "bg-blue-500"
   },
   {
-    title: "CHROME DELETE",
-    description: "Sleek chrome delete packages for a modern look",
+    title: "CERAMIC COATING",
+    description: "Advanced ceramic protection for long-lasting shine and protection",
     image: rootImg4,
     objectPosition: '50% 80%',
     badge: "TRENDING",
     badgeColor: "bg-blue-500"
   },
   {
-    title: "CUSTOM GRAPHICS",
-    description: "Personalized graphics and decal installation",
+    title: "POWDER COATING",
+    description: "Durable powder coating services for wheels and automotive parts",
     image: serviceCar1,
     badge: null,
     badgeColor: null
   },
   {
-    title: "PAINT PROTECTION",
-    description: "Clear protective films for paint preservation",
+    title: "CHROME DELETE",
+    description: "Sleek chrome delete packages for a modern, blacked-out look",
     image: serviceCar2,
     badge: null,
     badgeColor: null

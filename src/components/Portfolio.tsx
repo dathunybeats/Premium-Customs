@@ -19,22 +19,22 @@ const portfolioItems = [
   },
   {
     image: lamborghiniImage,
-    title: "Custom Graphics",
+    title: "PPF Installation",
     position: "center"
   },
   {
     image: porsche911Image,
-    title: "Window Tinting",
+    title: "Ceramic Coating",
     position: "center 65%"
   },
   {
     image: mustangImage,
-    title: "Headlight Tint",
+    title: "Powder Coating",
     position: "center"
   },
   {
     image: lamborghiniImage,
-    title: "Full Customization",
+    title: "Premium Detailing",
     position: "center"
   }
 ];
@@ -56,7 +56,7 @@ const Portfolio = () => {
               SEE OUR CUSTOM WORK
             </h2>
             <p className="text-gray-400 text-lg leading-relaxed mb-8 max-w-2xl">
-              Unique Customz HTX has transformed vehicles with premium vinyl wraps, window tinting, chrome delete, and custom graphics. Leave it to us to give your ride a completely new look! 🤙🏽
+              Premium Customs has transformed vehicles with professional detailing, vinyl wraps, PPF, ceramic coating, powder coating, and chrome delete. Leave it to us to give your ride a completely new look! 🤙🏽
             </p>
             <Button className="text-white font-semibold px-6 h-11 text-sm w-full max-w-md transition-all duration-300 rounded-md mb-8" style={{backgroundColor: 'rgba(59,59,59,255)'}}>
               VIEW ALL
@@ -104,7 +104,7 @@ const Portfolio = () => {
               SEE OUR CUSTOM WORK
             </h2>
             <p className="text-gray-400 text-lg leading-relaxed mb-8">
-              Unique Customz HTX specializes in premium automotive customization services. From complete vinyl wraps to precision window tinting and chrome delete packages - we transform your vehicle to match your vision.
+              Premium Customs specializes in professional automotive customization services. From detailing and vinyl wraps to PPF, ceramic coating, powder coating, and chrome delete packages - we transform your vehicle to match your vision.
             </p>
             <Button className="text-white font-semibold px-6 h-11 text-sm transition-all duration-300 rounded-md" style={{backgroundColor: 'rgba(59,59,59,255)'}}>
               VIEW ALL

@@ -7,7 +7,7 @@ import { MessageCircle, X, Send } from "lucide-react";
 const ChatWidget = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState([
-    { id: 1, text: "Hi! I'm here to help you with JB's Mobile Detailing. How can I assist you today?", sender: "bot" }
+    { id: 1, text: "Hi! I'm here to help you with Premium Customs. How can I assist you today?", sender: "bot" }
   ]);
   const [inputValue, setInputValue] = useState("");
 
@@ -21,7 +21,7 @@ const ChatWidget = () => {
       setTimeout(() => {
         const botResponse = { 
           id: Date.now() + 1, 
-          text: "Thanks for your message! For immediate assistance, please call +1 205-872-5994, email Jbsmobiledetail@gmail.com, or follow @jbsdetailingandceramics on Instagram.", 
+          text: "Thanks for your message! For immediate assistance, please call 832-714-7480, email info@premiumcustoms.com for our automotive customization services. We offer detailing, vinyl wrap, PPF, ceramic coating, powder coating, and chrome delete.", 
           sender: "bot" 
         };
         setMessages(prev => [...prev, botResponse]);
@@ -41,7 +41,7 @@ const ChatWidget = () => {
         <Card className="fixed bottom-40 right-6 w-80 h-96 shadow-2xl border-border bg-card z-50 rounded-xl">
           <CardHeader className="pb-3">
             <div className="flex items-center justify-between">
-              <CardTitle className="text-lg text-foreground font-semibold tracking-tight">JB's Mobile Detailing Chat</CardTitle>
+              <CardTitle className="text-lg text-foreground font-semibold tracking-tight">Premium Customs Chat</CardTitle>
               <Button
                 variant="ghost"
                 size="icon"

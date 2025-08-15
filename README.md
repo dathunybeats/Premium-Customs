@@ -1,38 +1,32 @@
-# JB's Mobile Detailing Website
+# Premium Customs Website
 
-A modern, responsive website for JB's Mobile Detailing - a premier mobile detailing service in Tuscaloosa, Alabama.
+A modern, responsive website for Premium Customs - a professional automotive customization shop.
 
 ## 🚗 About
 
-**JB's Mobile Detailing** is owned by Jacob Tyler Birmingham and specializes in professional mobile detailing services. Our tagline "ELEVATE YOUR RIDE" reflects our commitment to providing top-quality vehicle care.
+**Premium Customs** specializes in professional automotive customization services. Our tagline "ELEVATE YOUR RIDE" reflects our commitment to providing top-quality vehicle customization with premium materials and expert craftsmanship.
 
 ### Services Offered
-- **Mobile Detailing** - We come to you!
-- **Interior & Exterior Detailing**
-- **Paint Correction**
-- **Paint Touch-up**
-- **Professional Grade Ceramic Coatings**
-- **Ceramic Coating Specialist Services**
+- **Detailing** - Professional interior & exterior detailing
+- **Vinyl Wrap** - Complete vehicle transformation
+- **PPF (Paint Protection Film)** - Superior paint protection
+- **Ceramic Coating** - Advanced ceramic protection
+- **Powder Coating** - Durable coating for wheels and parts
+- **Chrome Delete** - Modern blacked-out look
 
 ## 📍 Location & Contact
 
-- **Location**: Tuscaloosa, AL, United States
-- **Phone**: +1 205-872-5994
-- **Email**: Jbsmobiledetail@gmail.com
-- **Business Hours**: Always Open (Appointments Only)
-- **Online Booking**: Available
-
-### Social Media
-- **Instagram**: @jbsdetailingandceramics
-- **Facebook**: JB's Mobile Detailing
-- **YouTube**: jbdetails205
-- **TikTok**: @jbsmobiledetailing
+- **Phone**: 832-714-7480
+- **Email**: info@premiumcustoms.com
+- **Business Hours**: Professional Service - By Appointment
+- **Services**: DETAILING | VINYL WRAP | PPF | CERAMIC COATING | POWDER COATING | CHROME DELETE
+- **Message**: Give us call for any questions
 
 ## ⭐ Reviews & Reputation
 
-- **100% Recommendation Rate**
-- **16 Reviews** from satisfied customers
-- Professional service with attention to detail
+- **Professional Service** with attention to detail
+- Premium automotive customization
+- Expert craftsmanship and materials
 
 ## 🛠️ Technology Stack
 
@@ -56,8 +50,8 @@ This website is built with modern web technologies:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/jbs-mobile-detailing.git
-cd jbs-mobile-detailing
+git clone https://github.com/yourusername/premium-customs-website.git
+cd premium-customs-website
 ```
 
 2. Install dependencies:
@@ -135,14 +129,15 @@ The website is easily customizable:
 
 ## 📄 License
 
-This project is private and proprietary to JB's Mobile Detailing.
+This project is private and proprietary to Premium Customs.
 
 ## 🤝 Support
 
 For support or questions about the website, contact:
-- **Email**: Jbsmobiledetail@gmail.com
-- **Phone**: +1 205-872-5994
+- **Email**: info@premiumcustoms.com
+- **Phone**: 832-714-7480
 
 ---
 
-**JB's Mobile Detailing** - Elevate Your Ride! 🚗✨
+**Premium Customs** - Elevate Your Ride! 🚗✨
+DETAILING | VINYL WRAP | PPF | CERAMIC COATING | POWDER COATING | CHROME DELETE

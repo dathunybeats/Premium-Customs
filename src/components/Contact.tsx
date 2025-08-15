@@ -44,7 +44,7 @@ const Contact = () => {
     setTimeout(() => {
       toast({
         title: "Message Sent!",
-        description: "Thank you for contacting Unique Customz HTX. We'll get back to you soon!",
+        description: "Thank you for contacting Premium Customs. We'll get back to you soon!",
       });
       setFormData({ name: "", email: "", message: "" });
       setIsSubmitting(false);
@@ -75,7 +75,7 @@ const Contact = () => {
             <div ref={leftRef} className="text-center flex flex-col justify-center h-full">
               <h3 className="text-3xl font-extrabold tracking-tight mb-6">
                 GET IN TOUCH WITH<br />
-                <span className="text-primary">UNIQUE CUSTOMZ HTX!</span>
+                <span className="text-primary">PREMIUM CUSTOMS!</span>
               </h3>
               
               <h4 className="text-xl font-semibold mb-4 tracking-tight">
@@ -110,9 +110,9 @@ const Contact = () => {
                     </div>
                     <div className="border-t border-border pt-4 mt-4">
                       <p className="font-semibold text-foreground">Contact:</p>
-                      <p>Phone: +1 832-758-0721</p>
-                      <p>Email: uniquecustomzhouston@gmail.com</p>
-                      <p className="font-semibold text-blue-500 mt-2">💸 Finance with Synchrony</p>
+                      <p>Phone: 832-714-7480</p>
+                      <p>Email: info@premiumcustoms.com</p>
+                      <p className="font-semibold text-blue-500 mt-2">Give us call for any questions</p>
                     </div>
                   </div>
                 </CardContent>

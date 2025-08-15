@@ -21,10 +21,10 @@ const Appointment = () => {
   });
 
   const services = [
-    "Mobile Detailing", "Ceramic Coating", "Paint Correction", 
-    "Paint Touch-up", "Interior Detailing", "Exterior Detailing",
-    "Professional Grade Coatings", "Maintenance Wash", "Special Events",
-    "New Car Protection", "Window Tinting", "Vinyl Wrap"
+    "Detailing", "Vinyl Wrap", "PPF (Paint Protection Film)", 
+    "Ceramic Coating", "Powder Coating", "Chrome Delete",
+    "Interior Detailing", "Exterior Detailing", "Paint Correction",
+    "New Car Protection", "Custom Graphics", "Headlight Tinting"
   ];
 
   const headerRef = useFadeIn(200);
@@ -47,18 +47,18 @@ const Appointment = () => {
               <p className="text-gray-300 leading-relaxed mb-6 text-sm">
                 We know you're busy, which is why we'll take care of all the details. We have a specialist 
                 waiting to help answer any questions or concerns - just fill out this form and they'll get 
-                back with you ASAP with a time to come to your location. Many pricing options are available, 
-                however feel free to contact us if you have any additional questions or to customize a package 
+                back with you ASAP. Many pricing options are available for our premium automotive customization services.
+                Feel free to contact us if you have any additional questions or to customize a package 
                 specific to your needs. We would look forward to hearing from you!
               </p>
               
               <div className="space-y-2 text-sm">
-                <div className="text-white"><strong>Service Area:</strong> Tuscaloosa, AL & Surrounding Areas</div>
-                <div className="text-white"><strong>Phone:</strong> Call or Text (205) 872-5994</div>
-                <div className="text-white"><strong>Email:</strong> Jbsmobiledetail@gmail.com</div>
-                <div className="text-white"><strong>Hours:</strong> Always Open - Appointments Only</div>
-                <div className="text-white"><strong>Online Booking:</strong> Available</div>
-                <div className="text-white"><strong>Delivery:</strong> We Come To You</div>
+                <div className="text-white"><strong>Service Area:</strong> Professional Automotive Customization</div>
+                <div className="text-white"><strong>Phone:</strong> Call or Text 832-714-7480</div>
+                <div className="text-white"><strong>Email:</strong> info@premiumcustoms.com</div>
+                <div className="text-white"><strong>Hours:</strong> Professional Service - By Appointment</div>
+                <div className="text-white"><strong>Services:</strong> Detailing | Vinyl Wrap | PPF | Ceramic Coating | Powder Coating | Chrome Delete</div>
+                <div className="text-white"><strong>Message:</strong> Give us call for any questions</div>
               </div>
               
               <Button className="w-full mt-6 bg-white text-black font-semibold h-11 rounded-md hover:bg-gray-100 transition-colors duration-300 text-sm">

@@ -5,25 +5,25 @@ const processSteps = [
   {
     id: "01",
     title: "BOOK AN APPOINTMENT", 
-    description: "Contact us via phone, email, or online booking to schedule your mobile detailing service. We'll work around your schedule and come to your location in Tuscaloosa.",
+    description: "Contact us via phone at 832-714-7480 or email to schedule your service. We'll work around your schedule and provide professional automotive customization services.",
     icon: Calendar
   },
   {
     id: "02", 
     title: "CHOOSE YOUR SERVICE",
-    description: "Select from our range of services including mobile detailing, ceramic coatings, paint correction, paint touch-up, and interior/exterior detailing packages.",
+    description: "Select from our range of services including detailing, vinyl wrap, PPF, ceramic coating, powder coating, and chrome delete packages.",
     icon: Settings
   },
   {
     id: "03",
-    title: "WE COME TO YOU", 
-    description: "Our professional team arrives at your location with all necessary equipment and supplies. No need to drive anywhere - we bring the service to you.",
+    title: "EXPERT SERVICE", 
+    description: "Our professional team provides expert automotive customization services with premium materials and equipment. Quality craftsmanship for all your vehicle needs.",
     icon: CheckCircle
   },
   {
     id: "04",
     title: "ENJOY THE RESULTS",
-    description: "Your vehicle receives professional detailing treatment and you enjoy the convenience of mobile service. Payment is collected upon completion of services.", 
+    description: "Your vehicle receives professional customization treatment with stunning results. Transform your ride with our premium automotive services.", 
     icon: Car
   }
 ];
@@ -34,7 +34,7 @@ const ServiceProcess = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <p className="text-primary font-semibold mb-4 tracking-wider uppercase">
-            YOUR MOBILE DETAILING EXPERIENCE
+            YOUR AUTOMOTIVE CUSTOMIZATION EXPERIENCE
           </p>
           <h2 className="text-4xl md:text-6xl font-bold mb-6">
             ELEVATE YOUR RIDE<br />
