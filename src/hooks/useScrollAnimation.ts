@@ -1,10 +1,10 @@
 import { useEffect, useRef } from 'react';
 
-export const useFadeIn = (delay: number = 0) => {
-  const elementRef = useRef<HTMLElement>(null);
+export const useFadeIn = <T extends HTMLElement = HTMLDivElement>(delay: number = 0) => {
+  const elementRef = useRef<T | null>(null);
 
   useEffect(() => {
-    const element = elementRef.current;
+    const element = elementRef.current as unknown as HTMLElement;
     if (!element) return;
 
     // Set initial invisible state
@@ -33,14 +33,14 @@ export const useFadeIn = (delay: number = 0) => {
     };
   }, [delay]);
 
-  return elementRef;
+  return elementRef as React.MutableRefObject<T | null>;
 };
 
-export const usePopUpAnimation = (delay: number = 0) => {
-  const elementRef = useRef<HTMLElement>(null);
+export const usePopUpAnimation = <T extends HTMLElement = HTMLDivElement>(delay: number = 0) => {
+  const elementRef = useRef<T | null>(null);
 
   useEffect(() => {
-    const element = elementRef.current;
+    const element = elementRef.current as unknown as HTMLElement;
     if (!element) return;
 
     // Set initial invisible state with stronger transform
@@ -69,5 +69,5 @@ export const usePopUpAnimation = (delay: number = 0) => {
     };
   }, [delay]);
 
-  return elementRef;
+  return elementRef as React.MutableRefObject<T | null>;
 };

@@ -9,32 +9,32 @@ import porsche911Image from "@/assets/portfolio-porsche911.jpg";
 const portfolioItems = [
   {
     image: mustangImage,
-    title: "Mustang GT500",
+    title: "Vinyl Wrap Project",
     position: "center"
   },
   {
     image: porscheGT3RSImage,
-    title: "Porsche GT3 RS",
+    title: "Chrome Delete",
     position: "center 70%"
   },
   {
     image: lamborghiniImage,
-    title: "Lamborghini",
+    title: "Custom Graphics",
     position: "center"
   },
   {
     image: porsche911Image,
-    title: "Porsche 911 GT3",
+    title: "Window Tinting",
     position: "center 65%"
   },
   {
     image: mustangImage,
-    title: "Ford Mustang",
+    title: "Headlight Tint",
     position: "center"
   },
   {
     image: lamborghiniImage,
-    title: "Supercar Detail",
+    title: "Full Customization",
     position: "center"
   }
 ];
@@ -49,14 +49,14 @@ const Portfolio = () => {
       <div className="lg:hidden">
         <div className="container mx-auto px-4">
           <div ref={headerRef} className="text-left mb-12">
-            <p className="text-red-500 font-semibold mb-3 tracking-[0.2em] uppercase text-xs">
+            <p className="text-blue-500 font-semibold mb-3 tracking-[0.2em] uppercase text-xs">
               PORTFOLIO
             </p>
             <h2 className="text-4xl md:text-5xl font-extrabold mb-6 text-white leading-tight tracking-tight">
-              SEE THE RESULTS FOR YOURSELF
+              SEE OUR CUSTOM WORK
             </h2>
             <p className="text-gray-400 text-lg leading-relaxed mb-8 max-w-2xl">
-              JB's Mobile Detailing has taken detailing to a whole new level using only top-of the line products. We make sure every vehicle feels as good, if not better than it did when first bought!
+              Unique Customz HTX has transformed vehicles with premium vinyl wraps, window tinting, chrome delete, and custom graphics. Leave it to us to give your ride a completely new look! 🤙🏽
             </p>
             <Button className="text-white font-semibold px-6 h-11 text-sm w-full max-w-md transition-all duration-300 rounded-md mb-8" style={{backgroundColor: 'rgba(59,59,59,255)'}}>
               VIEW ALL
@@ -97,14 +97,14 @@ const Portfolio = () => {
         {/* Left side - Text content */}
         <div className="flex-none" style={{width: '33.333333%'}}>
           <div ref={headerRef} className="h-full flex flex-col justify-center px-8">
-            <p className="text-red-500 font-semibold mb-3 tracking-[0.2em] uppercase text-xs">
+            <p className="text-blue-500 font-semibold mb-3 tracking-[0.2em] uppercase text-xs">
               PORTFOLIO
             </p>
             <h2 className="text-4xl md:text-5xl font-extrabold mb-6 text-white leading-tight tracking-tight">
-              SEE THE RESULTS FOR YOURSELF
+              SEE OUR CUSTOM WORK
             </h2>
             <p className="text-gray-400 text-lg leading-relaxed mb-8">
-              JB's Mobile Detailing has taken detailing to a whole new level using only top-of the line products. We make sure every vehicle feels as good, if not better than it did when first bought!
+              Unique Customz HTX specializes in premium automotive customization services. From complete vinyl wraps to precision window tinting and chrome delete packages - we transform your vehicle to match your vision.
             </p>
             <Button className="text-white font-semibold px-6 h-11 text-sm transition-all duration-300 rounded-md" style={{backgroundColor: 'rgba(59,59,59,255)'}}>
               VIEW ALL

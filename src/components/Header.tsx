@@ -35,10 +35,10 @@ const Header = () => {
           <div className="flex items-center space-x-8">
             <button 
               onClick={scrollToTop}
-              className="text-2xl md:text-3xl font-extrabold text-white hover:text-gray-200 transition-colors cursor-pointer tracking-tight"
+              className="text-xl md:text-2xl font-extrabold text-white hover:text-gray-200 transition-colors cursor-pointer tracking-tight"
               style={{color: '#ffffff'}}
             >
-              JB'S
+              UNIQUE CUSTOMZ HTX
             </button>
             <nav className="hidden md:flex items-center space-x-6">
               <a href="#services" className="text-sm font-medium text-foreground/90 hover:text-primary transition-colors">Services</a>
@@ -51,11 +51,11 @@ const Header = () => {
           <div className="hidden lg:flex items-center space-x-4 text-sm">
             <div className="flex items-center space-x-2 text-white">
               <Phone size={18} />
-              <span>+1 205-872-5994</span>
+              <span>+1 832-758-0721</span>
             </div>
             <div className="flex items-center space-x-2 text-white">
               <MapPin size={18} />
-              <span>Tuscaloosa, AL</span>
+              <span>5335 E 5th St. Unit 523</span>
             </div>
           </div>
           
@@ -103,11 +103,11 @@ const Header = () => {
                     <div className="flex flex-col space-y-4">
                       <div className="flex items-center space-x-3 text-white">
                         <Phone size={20} />
-                        <span className="text-base">+1 205-872-5994</span>
+                        <span className="text-base">+1 832-758-0721</span>
                       </div>
                       <div className="flex items-center space-x-3 text-white">
                         <MapPin size={20} />
-                        <span className="text-base">Tuscaloosa, AL</span>
+                        <span className="text-base">5335 E 5th St. Unit 523</span>
                       </div>
                     </div>
                     <Button 

@@ -5,72 +5,78 @@ import serviceBayImage from "@/assets/service-bay.jpg";
 import detailingImage from "@/assets/detailing-process.jpg";
 import diagnosticsImage from "@/assets/diagnostics.jpg";
 import heroImage from "@/assets/hero-car.jpg";
+import rootImg1 from "@/../448862467_795696592704901_3273269336755050533_n.jpg";
+import rootImg2 from "@/../456699078_496824373209091_6259366427592540416_n.jpg";
+import rootImg3 from "@/../479893191_18056512079488341_6843233752688514097_n.jpeg";
+import rootImg4 from "@/../528696091_18074988686488341_5236087420551395233_n.jpeg";
 import serviceCar1 from "@/assets/service-car1.jpg";
 import serviceCar2 from "@/assets/service-car2.jpg";
-import serviceCar3 from "@/assets/service-car3.jpg";
 import serviceCleAmg from "@/assets/service-cle-amg.jpg";
 import serviceMercedesGt from "@/assets/service-mercedes-gt.jpg";
 
 const services = [
   {
-    title: "MOBILE DETAILING",
-    description: "Professional mobile detailing service at your location",
-    image: serviceCar1,
+    title: "VINYL WRAP",
+    description: "Premium vinyl wrapping for complete vehicle transformation",
+    image: rootImg1,
     badge: "POPULAR",
-    badgeColor: "bg-red-500"
+    badgeColor: "bg-blue-500"
   },
   {
-    title: "CERAMIC COATINGS",
-    description: "Professional grade ceramic coatings for long-lasting protection",
-    image: serviceCar2,
+    title: "WINDOW TINT",
+    description: "Professional window tinting for privacy and UV protection",
+    image: rootImg2,
+    objectPosition: '50% 80%',
     badge: "PREMIUM",
-    badgeColor: "bg-red-500"
+    badgeColor: "bg-blue-500"
   },
   {
-    title: "PAINT CORRECTION",
-    description: "Professional swirl mark and scratch removal service",
-    image: serviceCar3,
+    title: "HEADLIGHT TINT",
+    description: "Custom headlight and taillight tinting services",
+    image: rootImg3,
+    objectPosition: '50% 80%',
     badge: "SPECIALIST",
-    badgeColor: "bg-red-500"
+    badgeColor: "bg-blue-500"
   },
   {
-    title: "PAINT TOUCH-UP",
-    description: "Expert paint touch-up and repair services",
-    image: serviceCleAmg,
-    badge: "APPOINTMENTS",
-    badgeColor: "bg-red-500"
+    title: "CHROME DELETE",
+    description: "Sleek chrome delete packages for a modern look",
+    image: rootImg4,
+    objectPosition: '50% 80%',
+    badge: "TRENDING",
+    badgeColor: "bg-blue-500"
   },
   {
-    title: "INTERIOR DETAILING",
-    description: "Deep clean and protection for all interior surfaces",
-    image: serviceMercedesGt,
+    title: "CUSTOM GRAPHICS",
+    description: "Personalized graphics and decal installation",
+    image: serviceCar1,
     badge: null,
     badgeColor: null
   },
   {
-    title: "EXTERIOR DETAILING",
-    description: "Complete exterior cleaning and protection services",
-    image: serviceCar3,
+    title: "PAINT PROTECTION",
+    description: "Clear protective films for paint preservation",
+    image: serviceCar2,
     badge: null,
     badgeColor: null
   }
 ];
 
 const Services = () => {
-  const headerRef = useFadeIn();
+  const headerRef = useFadeIn<HTMLDivElement>();
   
   // Create refs for each row with staggered pop-up animations (desktop)
-  const row1Ref = usePopUpAnimation(200);
-  const row2Ref = usePopUpAnimation(400);
-  const row3Ref = usePopUpAnimation(600);
+  const row1Ref = usePopUpAnimation<HTMLDivElement>(200);
+  const row2Ref = usePopUpAnimation<HTMLDivElement>(400);
+  const row3Ref = usePopUpAnimation<HTMLDivElement>(600);
 
   // Create refs for individual cards (mobile)
-  const card1Ref = usePopUpAnimation(100);
-  const card2Ref = usePopUpAnimation(200);
-  const card3Ref = usePopUpAnimation(300);
-  const card4Ref = usePopUpAnimation(400);
-  const card5Ref = usePopUpAnimation(500);
-  const card6Ref = usePopUpAnimation(600);
+  const card1Ref = usePopUpAnimation<HTMLDivElement>(100);
+  const card2Ref = usePopUpAnimation<HTMLDivElement>(200);
+  const card3Ref = usePopUpAnimation<HTMLDivElement>(300);
+  const card4Ref = usePopUpAnimation<HTMLDivElement>(400);
+  const card5Ref = usePopUpAnimation<HTMLDivElement>(500);
+  const card6Ref = usePopUpAnimation<HTMLDivElement>(600);
 
   // Group services into rows of 2
   const serviceRows = [
@@ -86,12 +92,12 @@ const Services = () => {
     <section id="services" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div ref={headerRef} className="text-left mb-16">
-          <p className="text-red-500 font-semibold mb-3 tracking-[0.2em] uppercase text-xs">
+          <p className="text-blue-500 font-semibold mb-3 tracking-[0.2em] uppercase text-xs">
             OUR SERVICES
           </p>
           <h2 className="text-3xl md:text-5xl font-extrabold mb-6 text-black tracking-tight">
-            <span className="md:hidden">DETAILING SERVICES OF<br />THE HIGHEST CALIBER</span>
-            <span className="hidden md:inline">DETAILING SERVICES OF THE HIGHEST CALIBER</span>
+            <span className="md:hidden">AUTOMOTIVE CUSTOMIZATION<br />SERVICES</span>
+            <span className="hidden md:inline">AUTOMOTIVE CUSTOMIZATION SERVICES</span>
           </h2>
         </div>
         
@@ -106,6 +112,7 @@ const Services = () => {
                       src={service.image} 
                       alt={service.title}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      style={{ objectPosition: (service as any).objectPosition || '50% 50%' }}
                     />
                     <div className="absolute inset-0 bg-black/40" />
                     
@@ -146,6 +153,7 @@ const Services = () => {
                     src={service.image} 
                     alt={service.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    style={{ objectPosition: (service as any).objectPosition || '50% 50%' }}
                   />
                   <div className="absolute inset-0 bg-black/40" />
                   

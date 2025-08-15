@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Phone, Mail, MessageCircle, MapPin, Check } from "lucide-react";
+import { CreditCard, DollarSign, Calendar, Percent, CheckCircle, Star } from "lucide-react";
 
 const ServicePackages = () => {
   return (
@@ -8,31 +8,31 @@ const ServicePackages = () => {
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <p className="text-primary font-semibold mb-4 tracking-wider uppercase border-l-4 border-primary pl-4">
-              DISCOVER OUR MOBILE DETAILING
+            <p className="text-blue-500 font-semibold mb-4 tracking-wider uppercase border-l-4 border-blue-500 pl-4">
+              💸 FINANCING AVAILABLE
             </p>
             <h2 className="text-4xl md:text-5xl font-bold mb-8">
-              PREMIUM<br />
-              DETAILING<br />
-              <span className="text-primary">PACKAGE</span>
+              FINANCE YOUR<br />
+              CUSTOM RIDE<br />
+              <span className="text-blue-500">WITH SYNCHRONY</span>
             </h2>
             
             <div className="space-y-4 mb-8">
               <div className="flex items-center bg-card/50 p-4 rounded-lg border border-border">
-                <Phone className="w-6 h-6 text-primary mr-4" />
-                <span className="text-foreground font-medium">+1 205-872-5994</span>
+                <CheckCircle className="w-6 h-6 text-green-500 mr-4" />
+                <span className="text-foreground font-medium">Quick & Easy Application</span>
               </div>
               <div className="flex items-center bg-card/50 p-4 rounded-lg border border-border">
-                <Mail className="w-6 h-6 text-primary mr-4" />
-                <span className="text-foreground font-medium">JBSMOBILEDETAIL@GMAIL.COM</span>
+                <DollarSign className="w-6 h-6 text-green-500 mr-4" />
+                <span className="text-foreground font-medium">Flexible Payment Plans</span>
               </div>
               <div className="flex items-center bg-card/50 p-4 rounded-lg border border-border">
-                <MessageCircle className="w-6 h-6 text-primary mr-4" />
-                <span className="text-foreground font-medium">ONLINE BOOKING</span>
+                <Calendar className="w-6 h-6 text-green-500 mr-4" />
+                <span className="text-foreground font-medium">Up to 60 Months Terms</span>
               </div>
               <div className="flex items-center bg-card/50 p-4 rounded-lg border border-border">
-                <MapPin className="w-6 h-6 text-primary mr-4" />
-                <span className="text-foreground font-medium">TUSCALOOSA, AL</span>
+                <Percent className="w-6 h-6 text-green-500 mr-4" />
+                <span className="text-foreground font-medium">Competitive Interest Rates</span>
               </div>
             </div>
           </div>
@@ -40,37 +40,42 @@ const ServicePackages = () => {
           <div>
             <Card className="bg-card border-border shadow-card">
               <CardContent className="p-8">
-                <div className="flex items-center justify-between mb-6">
-                  <h3 className="text-xl font-bold text-foreground">PREMIUM</h3>
-                  <div className="w-3 h-3 bg-primary rounded-full"></div>
-                  <h3 className="text-xl font-bold text-foreground">DETAILING</h3>
+                <div className="text-center mb-6">
+                  <div className="flex items-center justify-center mb-4">
+                    <CreditCard className="w-12 h-12 text-blue-500 mr-3" />
+                    <div>
+                      <h3 className="text-2xl font-bold text-foreground">SYNCHRONY</h3>
+                      <p className="text-sm text-muted-foreground">Financing Partner</p>
+                    </div>
+                  </div>
                 </div>
                 
                 <div className="space-y-4 mb-8">
-                  {[
-                    "Complete Interior & Exterior Detailing",
-                    "Professional Paint Correction", 
-                    "Ceramic Coating Application",
-                    "Paint Touch-up Services",
-                    "Engine Bay Cleaning",
-                    "Wheel & Tire Detailing",
-                    "Glass Treatment & Protection"
-                  ].map((service, index) => (
-                    <div key={index} className="flex items-center space-x-3">
-                      <Check className="w-5 h-5 text-primary" />
-                      <span className="text-muted-foreground">{service}</span>
+                  <div className="bg-blue-50 dark:bg-blue-950/20 p-4 rounded-lg border border-blue-200 dark:border-blue-800">
+                    <div className="flex items-center space-x-2 mb-2">
+                      <Star className="w-5 h-5 text-blue-500" />
+                      <span className="font-semibold text-blue-700 dark:text-blue-300">Benefits Include:</span>
                     </div>
-                  ))}
+                    <ul className="space-y-2 text-sm text-blue-600 dark:text-blue-400">
+                      <li>• No down payment required</li>
+                      <li>• Same-day approval available</li>
+                      <li>• Online account management</li>
+                      <li>• Promotional financing options</li>
+                    </ul>
+                  </div>
                 </div>
                 
                 <div className="border-t border-border pt-6">
-                  <div className="flex items-center justify-between mb-4">
-                    <span className="text-lg font-semibold text-foreground">PRICE:</span>
-                    <span className="text-3xl font-bold text-primary">$299</span>
+                  <div className="text-center mb-4">
+                    <p className="text-sm text-muted-foreground mb-2">Transform your ride today!</p>
+                    <span className="text-lg font-semibold text-foreground">Apply in minutes</span>
                   </div>
-                  <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground">
-                    Book This Package
+                  <Button className="w-full bg-blue-500 hover:bg-blue-600 text-white">
+                    Apply for Financing
                   </Button>
+                  <p className="text-xs text-muted-foreground mt-2 text-center">
+                    Subject to credit approval. Terms and conditions apply.
+                  </p>
                 </div>
               </CardContent>
             </Card>

@@ -9,35 +9,43 @@ import { useFadeIn } from "@/hooks/useScrollAnimation";
 const faqs = [
   {
     question: "What services do you offer?",
-    answer: "We offer comprehensive mobile detailing services including ceramic coating, paint correction, paint touch-up, interior and exterior detailing, professional grade ceramic coatings, and maintenance services. We come to your location in Tuscaloosa and surrounding areas."
+    answer:
+      "We specialize in vinyl wraps, window tint, headlight/taillight tint, chrome delete, custom graphics, and paint protection film. Professional installation with premium materials."
   },
   {
-    question: "How long does a typical detailing service take?",
-    answer: "The duration depends on the service type and vehicle condition. Basic detailing takes 2-4 hours, while premium services like ceramic coating can take 1-2 days. We'll provide an accurate time estimate when you book your appointment."
+    question: "Where are you located and do you take appointments?",
+    answer:
+      "We operate in Houston, TX at 5335 E 5th St. Unit 523. We work by appointment and recommend booking in advance to secure a slot."
   },
   {
-    question: "Do you offer mobile detailing services?",
-    answer: "Yes! We are a mobile detailing service that comes to your location. This is perfect for busy schedules and we bring all necessary equipment and supplies to provide professional quality service at your doorstep in Tuscaloosa, AL."
+    question: "How long do services take?",
+    answer:
+      "Timing varies by service and vehicle. Small tint jobs can be done the same day. Full wraps typically take 2–5 days depending on complexity. We’ll give an ETA during booking."
   },
   {
-    question: "What is ceramic coating and how long does it last?",
-    answer: "Ceramic coating is a protective layer that bonds to your vehicle's paint, providing superior protection against UV rays, chemicals, and environmental contaminants. Our professional grade ceramic coatings typically last 2-5 years depending on the product and maintenance."
+    question: "What films and materials do you use?",
+    answer:
+      "We use high-quality brands selected for durability and finish. Options include gloss, matte, satin, color-shift, and stealth films. We’ll help you choose the best option for your car and budget."
   },
   {
-    question: "How often should I have my car detailed?",
-    answer: "We recommend professional detailing every 3-4 months for optimal protection and appearance. However, this can vary based on your driving conditions, storage, and personal preferences. Regular maintenance helps keep your vehicle in top condition between details."
+    question: "How should I care for my wrap or tint?",
+    answer:
+      "Hand wash only, avoid harsh chemicals/abrasives, and keep the vehicle out of automatic brush washes. Use pH-neutral soaps and microfiber towels. We’ll provide care guidance at pickup."
+  },
+  {
+    question: "Do you offer warranties?",
+    answer:
+      "Yes. Manufacturer warranties apply to films, and we guarantee installation workmanship. Warranty specifics depend on the product chosen; we’ll outline details on your estimate."
   },
   {
     question: "What payment methods do you accept?",
-    answer: "We accept cash, credit cards (Visa, MasterCard, American Express), and digital payments. Payment is due upon completion of services unless prior arrangements have been made."
+    answer:
+      "Cash and major credit/debit cards are accepted. Deposits may be required to reserve appointments on larger projects."
   },
   {
-    question: "Do you provide warranties on your services?",
-    answer: "Yes, we stand behind our work with service warranties. Ceramic coating comes with manufacturer warranties ranging from 2-5 years. Other services include satisfaction guarantees - we'll make it right if you're not completely satisfied."
-  },
-  {
-    question: "What areas do you serve?",
-    answer: "We primarily serve Tuscaloosa, Alabama and surrounding areas. We're always open for appointments and offer online booking for your convenience. Contact us to confirm if we service your specific location."
+    question: "Can you help with design and custom graphics?",
+    answer:
+      "Absolutely. We can design, print, and install bespoke graphics and decals, from subtle accents to full branding packages."
   }
 ];
 

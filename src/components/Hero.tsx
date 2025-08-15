@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import heroImage from "@/assets/hero-unsplash.jpg";
 import heroImage2 from "@/assets/hero-unsplash2.jpg";
 import heroImage3 from "@/assets/hero-wallpaper.jpg";
-import heroImage4 from "@/assets/hero-img5539.jpg";
+import heroSlide4 from "@/../448862467_795696592704901_3273269336755050533_n.jpg";
 
 const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -14,38 +14,38 @@ const Hero = () => {
     {
       id: 1,
       backgroundImage: heroImage,
-      subtitle: "MOBILE DETAILING",
-      title: "ELEVATE YOUR RIDE",
-      titleHighlight: "WITH JB'S DETAILING",
-      buttonText: "BOOK NOW",
-      headingClass: "text-3xl sm:text-5xl md:text-6xl lg:text-6xl"
+      subtitle: "AUTOMOTIVE CUSTOMIZATION",
+      title: "TRANSFORM YOUR RIDE",
+      titleHighlight: "WITH UNIQUE CUSTOMZ HTX",
+      buttonText: "GET QUOTE",
+      headingClass: "text-2xl sm:text-5xl md:text-6xl lg:text-6xl"
     },
     {
       id: 2,
       backgroundImage: heroImage2,
-      subtitle: "CERAMIC COATINGS",
-      title: "PROFESSIONAL GRADE",
-      titleHighlight: "PROTECTION",
-      buttonText: "BOOK NOW",
-      headingClass: "text-4xl md:text-6xl lg:text-7xl"
+      subtitle: "VINYL WRAP SPECIALISTS",
+      title: "PREMIUM VINYL",
+      titleHighlight: "WRAPPING SERVICES",
+      buttonText: "GET QUOTE",
+      headingClass: "text-3xl sm:text-5xl md:text-6xl lg:text-7xl"
     },
     {
       id: 3,
       backgroundImage: heroImage3,
-      subtitle: "PAINT CORRECTION",
-      title: "INTERIOR & EXTERIOR",
-      titleHighlight: "DETAILING",
-      buttonText: "BOOK NOW",
-      headingClass: "text-4xl md:text-6xl lg:text-7xl"
+      subtitle: "WINDOW TINTING",
+      title: "PROFESSIONAL GRADE",
+      titleHighlight: "TINT INSTALLATION",
+      buttonText: "GET QUOTE",
+      headingClass: "text-3xl sm:text-5xl md:text-6xl lg:text-7xl"
     },
     {
       id: 4,
-      backgroundImage: heroImage4,
-      subtitle: "JB'S MOBILE DETAILING",
-      title: "100% RECOMMEND",
-      titleHighlight: "16 REVIEWS",
-      buttonText: "BOOK NOW",
-      headingClass: "text-4xl md:text-6xl lg:text-7xl"
+      backgroundImage: heroSlide4,
+      subtitle: "FINANCING AVAILABLE",
+      title: "FINANCE WITH",
+      titleHighlight: "SYNCHRONY 💸",
+      buttonText: "LEARN MORE",
+      headingClass: "text-3xl sm:text-5xl md:text-6xl lg:text-7xl"
     }
   ];
 
@@ -88,7 +88,7 @@ const Hero = () => {
           <p className="text-white/85 font-medium mb-3 tracking-[0.2em] uppercase text-xs opacity-0 animate-fade-in" style={{ animationDelay: '0.5s', animationFillMode: 'forwards' }}>
             {slides[currentSlide].subtitle}
           </p>
-          <h1 className={`${slides[currentSlide].headingClass} font-extrabold mb-8 leading-[1.1] tracking-tight text-white opacity-0 animate-fade-in hero-text`} style={{ animationDelay: '0.7s', animationFillMode: 'forwards' }}>
+          <h1 className={`${slides[currentSlide].headingClass} font-extrabold mb-6 sm:mb-8 leading-tight sm:leading-[1.1] tracking-tight text-white opacity-0 animate-fade-in hero-text`} style={{ animationDelay: '0.7s', animationFillMode: 'forwards', wordBreak: 'keep-all' }}>
             {slides[currentSlide].title}<br />
             <span className="text-white">{slides[currentSlide].titleHighlight}</span>
           </h1>

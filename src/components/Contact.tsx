@@ -44,7 +44,7 @@ const Contact = () => {
     setTimeout(() => {
       toast({
         title: "Message Sent!",
-        description: "Thank you for contacting JB's Mobile Detailing. We'll get back to you soon!",
+        description: "Thank you for contacting Unique Customz HTX. We'll get back to you soon!",
       });
       setFormData({ name: "", email: "", message: "" });
       setIsSubmitting(false);
@@ -75,7 +75,7 @@ const Contact = () => {
             <div ref={leftRef} className="text-center flex flex-col justify-center h-full">
               <h3 className="text-3xl font-extrabold tracking-tight mb-6">
                 GET IN TOUCH WITH<br />
-                <span className="text-primary">JB'S MOBILE DETAILING!</span>
+                <span className="text-primary">UNIQUE CUSTOMZ HTX!</span>
               </h3>
               
               <h4 className="text-xl font-semibold mb-4 tracking-tight">
@@ -99,23 +99,20 @@ const Contact = () => {
                 <CardContent className="p-6">
                   <h4 className="text-xl font-semibold mb-4 text-foreground tracking-tight">CONTACT INFORMATION</h4>
                   <div className="space-y-3 text-muted-foreground">
-                    <p>Mobile Service</p>
-                    <p>Tuscaloosa, Alabama</p>
-                    <p>United States</p>
+                    <p>Automotive Customization Shop</p>
+                    <p>5335 E 5th St. Unit 523</p>
+                    <p>Houston, Texas</p>
                     <div className="border-t border-border pt-4 mt-4">
                       <p className="font-semibold text-foreground">Business Hours:</p>
-                      <p>Always Open - Appointments Only</p>
-                      <p>100% Recommend (16 Reviews)</p>
-                      <p>Online Booking Available</p>
+                      <p>Opening Soon</p>
+                      <p>Not yet rated (4 reviews)</p>
+                      <p>Price range: ££</p>
                     </div>
                     <div className="border-t border-border pt-4 mt-4">
                       <p className="font-semibold text-foreground">Contact:</p>
-                      <p>Phone: +1 205-872-5994</p>
-                      <p>Email: Jbsmobiledetail@gmail.com</p>
-                      <p>Instagram: @jbsdetailingandceramics</p>
-                      <p>Facebook: JB's Mobile Detailing</p>
-                      <p>YouTube: jbdetails205</p>
-                      <p>TikTok: @jbsmobiledetailing</p>
+                      <p>Phone: +1 832-758-0721</p>
+                      <p>Email: uniquecustomzhouston@gmail.com</p>
+                      <p className="font-semibold text-blue-500 mt-2">💸 Finance with Synchrony</p>
                     </div>
                   </div>
                 </CardContent>
